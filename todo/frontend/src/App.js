@@ -12,23 +12,6 @@ class App extends React.Component {
       'users': []
     }
   }
-
- // componentDidMount() {
-      //  const users = [
-      //   {
-      //     "username": "Fox",
-      //     "first_name": "Денис",
-      //     "last_name": "Иванов",
-      //     "email": "foxden@mail.ru"
-      //   },
-      //   {
-      //     "username": "Doc",
-      //     "first_name": "Мария",
-      //     "last_name": "Конь",
-      //     "email": "docmmm@mail.ru"
-      //   }
-      // ]
-
     
   componentDidMount() {
     axios.get('http://127.0.0.1:8000/api/users')
